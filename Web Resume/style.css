@@ -1,0 +1,39 @@
+body {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  border: 2px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+}
+header section {
+  border: 2px solid red;
+}
+.contact {
+  width: 30%;
+  box-sizing: border-box;
+}
+.name {
+  width: 70%;
+  box-sizing: border-box;
+}
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.contact li {
+  border: 1px solid red;
+}
+.contact p {
+  display: inline-block;
+  margin-left: 0.2em;
+}
